@@ -7,3 +7,4 @@ Local installation vs global installation (to install globally we need to get ad
 what is an import (ES6) module import is used instead of require to save the memory but we need to use the keyword export before importing and we need to add the "type" : "module" in package-json  
 what is express? express is a framework used for server side programming it can handle routes and building web applications
 installed the express modules in the express directory and acquired the properties using the require('express') and assigned to an variable app and set up port by let port = 3000 or 8080 and started running the first server using app.listen(port,()=>console.log('port is running'))
+completed learning the app.use function but i dont know why i used it i should learn about the internet to further proceed
