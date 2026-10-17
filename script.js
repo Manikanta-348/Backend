@@ -1,2 +1,2 @@
-let math = require("./math")
-console.log(math.sum(1,3))
+let details = require("./Cars")
+console.log(details)
