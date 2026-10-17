@@ -1,2 +1,3 @@
-Well, this is the process. I am learning the backend, and here I will note down everything which I have been learning, starting from Node modules. I am learning about Node.js. It is a runtime environment. It is not a library or framework or anything. It allows JavaScript to run outside the browser. 
-In the first module, we are learning about the export modules: `module.exports`. And its main function is to acquire the properties of one file to another file through the keyword `module.exports`. We can also write the `exports` separately for one function or one variable. 
+started learning backend 
+what is node js
+how can we use module.exports and exports.variable
