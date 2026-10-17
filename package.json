@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description":"",
+  "homepage": "https://github.com/Manikanta-348/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Manikanta-348/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manikanta-348/Backend.git"
+  },
+  "license": "ISC",
+  "author": "MK",
+  "type": "commonjs",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "figlet": "^1.12.0"
+  },
+  "type" : "module",
+  "devDependencies": {}
+}
