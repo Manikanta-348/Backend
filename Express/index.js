@@ -7,5 +7,7 @@ app.listen(port,()=>{
 })
 
 app.use((req,res)=>{
+    code = "<h1>I am Vengeance</h1>";
+    res.send(code);
     console.log('app is running')
 })
