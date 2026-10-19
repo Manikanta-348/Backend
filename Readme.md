@@ -9,3 +9,4 @@ what is express? express is a framework used for server side programming it can 
 installed the express modules in the express directory and acquired the properties using the require('express') and assigned to an variable app and set up port by let port = 3000 or 8080 and started running the first server using app.listen(port,()=>console.log('port is running'))
 completed learning the app.use function but i dont know why i used it i should learn about the internet to further proceed
 used app.use to send the response using function res.send and we can send any type like string,object,html
+learned about the routing it explains how the webpages are connected each other through app.get() and similarily app.post() but faced a problem restarting server many times but it is solved using the nodemon which automatically restarts the server when any changes detected
