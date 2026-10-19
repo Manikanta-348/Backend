@@ -16,8 +16,13 @@ app.get("/:username/:id",(req,res)=>{
     let inhtml = `hello ${username} your id ${id}`;
     res.send(inhtml);
 })
-app.get("/apple",(req,res)=>{
-    res.send("this is apple path");
+app.get("/search",(req,res)=>{
+    let {q,gender} = req.query;
+    console.log(req.query)
+    if(!q) {
+        res.send(`<h1>nothing searched</h1>`)
+    }
+    res.send(`<h1>you searched for ${q} and gender ${gender}</h1>`);
 })
 
 app.post("/business",(req,res)=>{
