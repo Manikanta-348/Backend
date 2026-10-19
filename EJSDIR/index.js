@@ -12,6 +12,10 @@ app.get("/rolldice",(req,res)=>{
     let rolldice = Math.floor(Math.random()*6)+1;
     res.render("rolldice.ejs",{rolldice})
 })
+app.get("/ig/:username",(req,res)=>{
+    let {username} = req.params;
+    res.render("insta.ejs",{username});
+})
 app.listen(port,(req,res)=>{
     console.log(`app is lisenting ${port}`)
 })

@@ -15,4 +15,5 @@ learned about the query strings which means if we visit any platform and search 
 EJS  
 ejs is an template engine which allows to render html pages and learned about path.join it is used because when we try to access the code from the main folder then we can get error rendering pages because the express searches for the views folder in it so we require a path function and we use the app.set("views",path.join(__dirname,"/views)) so it can fetch even when we run from main folder  
 interpolation syntax which makes the html pages dynamic so we use some tags from the ejs.co website and using them we can create the html pages dynamic eg:<p><%=3*5%><p> this results 15 instead of printing the same in html    
-passing data from database took an example rolldice and wrote the math.random function to generate random number and passed through the tags in the new page created rolldice.ejs
+passing data from database took an example rolldice and wrote the math.random function to generate random number and passed through the tags in the new page created rolldice.ejs  
+started using the conditional statements in the ejs through <%%> eg: if the dice value is 6 then we prints the nice roll again by  <% if(rolldice == 6){%><h2>Nice,Roll dice again</h2><%}%>  
