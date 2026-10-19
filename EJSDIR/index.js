@@ -13,8 +13,9 @@ app.get("/rolldice",(req,res)=>{
     res.render("rolldice.ejs",{rolldice})
 })
 app.get("/ig/:username",(req,res)=>{
+    let followers = ["kavya","keer","kusuma","hanshitha"]
     let {username} = req.params;
-    res.render("insta.ejs",{username});
+    res.render("insta.ejs",{username,followers});
 })
 app.listen(port,(req,res)=>{
     console.log(`app is lisenting ${port}`)
