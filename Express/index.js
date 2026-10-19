@@ -11,8 +11,10 @@ app.listen(port,()=>{
 //     res.send(code);
 //     console.log('app is running')
 // })
-app.get("/",(req,res)=>{
-    res.send("this is root path");
+app.get("/:username/:id",(req,res)=>{
+    let {username,id} = req.params;
+    let inhtml = `hello ${username} your id ${id}`;
+    res.send(inhtml);
 })
 app.get("/apple",(req,res)=>{
     res.send("this is apple path");

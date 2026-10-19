@@ -10,3 +10,4 @@ installed the express modules in the express directory and acquired the properti
 completed learning the app.use function but i dont know why i used it i should learn about the internet to further proceed
 used app.use to send the response using function res.send and we can send any type like string,object,html
 learned about the routing it explains how the webpages are connected each other through app.get() and similarily app.post() but faced a problem restarting server many times but it is solved using the nodemon which automatically restarts the server when any changes detected
+path parameters which are used for accessing different paths by adding variables to the routes "/:username" through this we can access any username and send the name in response the names are stored in req.params it can be accessed the username
